@@ -1,0 +1,29 @@
+◆概要
+    MTGのカード検索、及び、デッキ構築を行うWEBサイト
+
+◆主な機能
+    ・ユーザ認証
+    ・MTGAPIを使ったカード検索
+    ・デッキ保存
+    ・デッキのテキスト出力
+    ・一人回し
+
+◆環境
+    ・インフラ：Azure
+    ・開発言語：C#（ASP.net MVC + knockout）
+    ・データベース：SQL Server
+    ・ページ構成：シングルページアプリケーション
+    ・デザイン：Bootstrap
+    ・ソース管理：git
+    ・プロジェクト管理：GitHub
+
+
+◆備考
+    ・knockout
+        knockout.d.tsでビルドエラーが発生する
+            →tsconfig.json　skipLibCheck：true
+            →csprojファイルにmsbuildパラメータを追加してください： <TypeScriptSkipLibCheck> True</ TypeScriptSkipLibCheck> 
+
+◆サンプルアプリケーションの作成
+　・名称によりカードを検索、検索結果を一覧として画面上に表示、一覧からカードの詳細にジャンプする
+　・画面構成
