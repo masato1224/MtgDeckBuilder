@@ -15,7 +15,8 @@
     ・ページ構成：シングルページアプリケーション
     ・デザイン：Bootstrap
     ・ソース管理：git
-    ・プロジェクト管理：GitHub or https://www.sourcetreeapp.com/ 
+    ・プロジェクト管理：GitHub
+    ・Gitクライアント：GitHub Desktop && VS Git
 
 
 ◆備考
